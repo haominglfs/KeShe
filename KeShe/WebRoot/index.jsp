@@ -58,7 +58,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
  <div class="div31">
 <img src="img/pos_machine.jpg">
-<a href="pos.html"><img src="img/POS.jpg" height="130px" width="200px"></a>
+<a href="pos.jsp"><img src="img/POS.jpg" height="130px" width="200px"></a>
 <p>点击图片查看详情</p>
  </div>
 </div >

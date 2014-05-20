@@ -1,7 +1,7 @@
 .div1{
 width: 988px;
-height: 800px;
-//border: solid;
+height: 850px;
+border: solid  gray 2px;
 margin-left: auto;
 margin-right: auto;
 position: relative;
@@ -9,7 +9,7 @@ position: relative;
 
 .div2{
 	height: 200px;
-	border: solid;
+	border: solid 2px gray;
 }
 
 .div21{
@@ -21,32 +21,35 @@ position: relative;
 }
 
 .div3{
-	height: 720px;
+	height: 630px;
 	width: 250px;
-	//border: solid;
+	border: solid 2px gray;
 	float: left;
-	margin:5px 0;
+	//position: relative;
+	//left: 0;
+	margin-top:5px ;
+	margin-left: -60px;
 	}
 
 .div31{
 	height: 200px;
 	width: 230px;
-	border: solid;
-	margin:25px 0;
+	border: solid 2px gray;
+	margin:5px 0;
 }
 
 .div4{
 	height: 200px;
 	width: 700px;
-	border: solid;
+	border: solid 2px gray;
 	float: right;
 	margin:5px 0;
 	}
 
 .div5{
-	height: 500px;
+	height: 400px;
 	width: 700px;
-	border: solid;
+	border: solid 2px gray;
 	float:right;
 	margin:5px 0;
 }
@@ -54,7 +57,38 @@ position: relative;
 .div51{
 	width: 100px;
 	height: 120px;
-	//border: solid;
-	margin:70px 100px;
+	border: solid 2px gray;
+	margin:30px 100px;
 	float: left;
+}
+ 
+ 
+.divpos{
+	width: 90px;
+	height: 90px;
+	border: solid 2px gray;
+	margin:35px 20px;
+	float: left;
+}
+
+
+.divlose{
+	width: auto;
+	height: auto;
+	border: solid 2px gray;
+	margin:100px 210px;
+	background: url(img/lose.jpg);
+}
+
+.form1{
+	margin:80px 80px;
+}
+
+.divtopic{
+	width: 200px;
+	height: 200px;
+	border: solid 2px gray;
+	margin: 40px 50px;
+	float: left;
+	color: blue;
 }
