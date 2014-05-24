@@ -77,7 +77,7 @@ position: relative;
 	height: auto;
 	border: solid 2px gray;
 	margin:100px 210px;
-	background: url(img/lose.jpg);
+	background: url(./../img/lose.jpg);
 }
 
 .form1{

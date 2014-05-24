@@ -17,7 +17,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
  <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
  <meta http-equiv="description" content="This is my page">
  
- <link rel="stylesheet" type="text/css" href="styles.css">
+ <link rel="stylesheet" type="text/css" href="css/styles.css">
  
 
   </head>
@@ -34,7 +34,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <a href="index.jsp">系统首页</a>
   </div>
   <div class="div22">
-<a href="bangzhu.html">帮助</a> | <a href=""></a>退出</a>
+<a href="topic.jsp">帮助</a> | <a href=""></a>退出</a>
   </div> 
     </div >
 
@@ -52,7 +52,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
  <div class="div31">
 <img src="img/banktran_machine.jpg">
-<a href="quancunji.html"><img src="img/driver.jpg"  height="130px"></a>
+<a href="CustomPosition.html"><img src="img/driver.jpg"  height="130px"></a>
 <p>点击图片查看详情</p>
  </div>
 
@@ -69,7 +69,7 @@ gonggaoban
 
 <div  class="div5">  
 <div class="div51">
-<a href="login.jsp"><img src="img/menu1.jpg"></a>
+<a href="Login.html"><img src="img/menu1.jpg"></a>
 </div>
 
 <div class="div51">
@@ -78,7 +78,7 @@ gonggaoban
 </div>
 
 <div class="div51">
-<a href="founction.jsp"><img src="img/menu3.jpg"></a>
+<a href="FunctionDeclaration.html"><img src="img/menu3.jpg"></a>
 
 </div>
 

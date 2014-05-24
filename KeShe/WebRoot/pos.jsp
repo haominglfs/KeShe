@@ -17,7 +17,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
  <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
  <meta http-equiv="description" content="This is my page">
  
- <link rel="stylesheet" type="text/css" href="styles.css">
+ <link rel="stylesheet" type="text/css" href="css/styles.css">
  
 
   </head>
@@ -34,7 +34,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <a href="index.jsp">系统首页</a>
   </div>
   <div class="div22">
-<a href="bangzhu.html">帮助</a> | <a href=""></a>退出</a>
+<a href="topic.jsp">帮助</a> | <a href=""></a>退出</a>
   </div> 
     </div >
     <p  style="text-align:center;font-size:30px" >POS 机 地 理 位 置 展 示 界 面</p>
