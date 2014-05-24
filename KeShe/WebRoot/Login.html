@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+   	<link rel="stylesheet" type="text/css" href="css/Login.css">
+   	<script type="text/javascript" src="js/shenfenzheng.js"></script>
+  </head>
+  
+  <body  onload="createCode()">
+    <div class="div1" >
+		<div class="div2">
+  			<img src="img/top.jpg"  width="987" height="140">
+  			<img src="img/left.jpg"><img src="img/center.jpg" ><img src="img/right.jpg">
+  			
+  			<div class="div21">
+				<a href="index.jsp">系统首页</a>
+  			</div>
+  			
+  			<div class="div22">
+				<a href="topic.jsp">帮助</a> | <a href="">退出</a>
+  			</div> 
+  			
+  			<div id="login">
+  				<div id="in_login">
+  				<form action="" id="form1"  >
+  					<table>
+  						<tr class="set_row_height">
+  							<td class="set_column_width1"><label for="account">账&nbsp;&nbsp;&nbsp;&nbsp;号:</label></td>
+  							<td><input type="text"  id="zhanghao" class="set_column_width2" onblur="isCardNo();"> <span style="color:red" id="sp"></span></td>
+  						</tr>
+  						
+  						<tr class="set_row_height">
+  							<td class="set_column_width1"><label for="password">密&nbsp;&nbsp;&nbsp;&nbsp;码:</label></td>
+  							<td><input type="password" id="password" class="set_column_width2"></td>
+  						</tr> 
+  						
+  						<tr class="set_row_height">
+  							<td class="set_column_width1"><label for="identify">身&nbsp;&nbsp;&nbsp;&nbsp;份:</label></td>
+  							<td>
+  								<select id="identify" class="set_column_width2" style="height: 28px;width: 204px">
+  									<option>请选择登录身份</option>
+  									<option>管理员</option>
+  									<option>教师</option>
+  									<option>学生</option>
+  								</select>
+  							</td>
+  						</tr>
+  						
+  						<tr class="set_row_height">
+  							<td class="set_column_width1"><label for="identifying_code">验证码:</label></td>
+  							<td><input type="text"  id="inputCode" class="set_column_width2" onblur="validateCode();"></td>
+  							
+  						</tr>
+  							<tr>
+  							
+  							<td><div class="code" id="checkCode" onclick="createCode();" ></div></td>
+  								<td id="td" style="color:red"></td>
+  							</tr>
+  						
+  						
+  						<tr class="set_row_height">
+  							<td class="set_column_width1"><input id="submit" type="submit" value=""></td>
+  							<td class="set_column_width2"><input id="reset" type="reset" value=""></td>
+  						</tr>					
+  					</table>
+  				</form>
+  				</div>
+  			</div>
+    	</div >
+    </div>
+  </body>
+</html>
